@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,div,ul,li,a,p,h1,h2,h3,h4,h5,h6,table,form,span,table{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    font-family: Arial,Verdana,"\5b8b\4f53";
+    color: #686868;
+}
+i,s,u,b{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+}
+img{
+    border: none;
+    display: block;
+}
+input,form,button,textarea{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+a:hover{
+    color:#c81623;
+}
+table{
+    border-collapse: collapse;
+}
+.clearfix::before,.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+.clearfix{
+    zoom: 1;
+    /* 兼容ie6,7,8 */
+}

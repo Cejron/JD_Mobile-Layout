@@ -1,0 +1,548 @@
+.global{
+    /* width: 412px; */
+    min-width: 350px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+/* nav-part开始 */
+.nav-part{
+    position: fixed;    
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    z-index: 2;
+}
+.nav-main-input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 36.4px 0 41.6px;
+    height:52px;
+}
+.nav-main-input-content{
+    /* width: 100%; */
+    box-sizing: border-box;
+    padding: 0 10px 0 78px;
+    height: 31.2px;
+    position: relative;
+    top: 11px;
+    background-color: #fff;
+    border-radius: 15.5px;
+    overflow: hidden;
+}
+.nav-main-input-content input{
+    /* width: 100%; */
+    height: 100%;
+    vertical-align: center;
+    outline: none;
+    
+}
+.nav-main-input-content .lgl{
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-image: url(../image/JD.png);
+    position: absolute;
+    background-size: 21px auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    top: 6px;
+    left: 15px;
+}
+.nav-main-input-content .lgr{
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-image: url(../image/search.png);
+    background-size: contain;
+    top: 9px;
+    left: 55px;
+}
+.nav-main-left{
+    display: block;
+    width: 32px;
+    height: 52px;
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav-main-left a{
+    display: block;
+    width: 32px;
+    height: 52px;
+    position: relative;
+}
+.nav-main-left a i{
+    display: block;
+    position: absolute;
+    width:20.8px;
+    height:16.64px;
+    top: 17px;
+    left: 15px;
+    background-image: url(../image/logo.png);
+    background-size: contain;
+    background-position: 0 0; 
+}
+.nav-main-right{
+    display: block;
+    width: 21px;
+    height: 52px;
+    position: absolute;
+    top: 0;
+    right:12px;
+}
+.nav-main-right a{
+    display: block;
+    width: 21px;
+    height: 52px;
+    background-image: url(../image/message.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 12px;
+}
+/* nav-part结束 */
+
+/* slider开始 */
+.slider{
+    position: relative;
+    z-index: -2;
+}
+.slider a{
+    display: block;
+}
+.slider a img{
+    width: 100%;
+}
+.slider ul{
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    margin-left: -51.5px;
+}
+.slider ul li{
+    list-style: none;
+    display:inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    border:1px solid white;
+    margin: 0 2px;
+}
+.slider ul li:first-child{
+    background-color: #fff;
+}
+
+/* slider结束 */
+/* appcenter开始 */
+.appcenter{
+    position: relative;
+    background-color: #fff;
+    padding: 4px 0 16px 0;
+    border-radius: 10px 10px 0 0;
+    top: -12px;
+}
+.appcenter ul{
+    display: flex;
+    height: 63px;
+}
+.appcenter ul li{
+    flex: 1;
+}
+.appcenter ul li a{
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 6px 0;
+    padding-top: 43px;
+    position: relative;
+}
+.appcenter ul li a img{
+    display: block;
+    width: 41.6px;
+    height: 41.6px;
+    position: absolute;
+    top: -2px;
+    left:50%;
+    margin-left: -21px;
+    background-size: contain; 
+}
+/* appcenter结束 */
+.newfaster-everyday{
+    background-color: #eee8e8;
+}
+/* news-faster开始 */
+.news-faster{
+    margin: 0px 8px 8px 8px;
+    padding: 0 5px;
+    background-color: #fdfbfb;
+}
+.hot-point{
+    padding: 0 42px 0 85px;
+    position: relative;
+}
+.rolling{
+    /* display: block; */
+    /* height: 30px; */
+    line-height: 30px;
+    font-size: 12px;
+    padding-left: 26px;
+
+    position: relative;
+}
+.rolling span{
+    color: #e01a1a;
+    position: absolute;
+    font-weight: 900;
+    font-size: 10px;
+    top: -9px;
+    left: 0px;
+}
+.jd-faster{
+    display: block;
+    width: 73px;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url(../image/jd-news-tit.png);
+    background-size: contain;
+}
+.news-faster-more{
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 12px;
+    color: black;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    border-left: 1px solid #c1c1c1;
+}
+/* news-faster结束 */
+/* everyday开始 */
+.everyday{
+    margin-bottom: 5px;
+}
+.everyday-goodluck img{
+    width: 100%;
+}
+/* everyday结束 */
+
+/* footer-container开始 */
+.footer-container{
+    
+}
+.footer-container-title{
+    display: flex;
+    height: 34px;
+}
+.time-ticker{
+    display: block;
+    flex: 7;
+    position: relative;
+}
+.time-ticker strong:nth-of-type(1){
+    margin: 2px 6.24px 0 6.24px;
+    font-size: 1rem;
+    color: #f02b2b;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.time-ticker strong:nth-of-type(2){
+    color: #000;
+    position: absolute;
+    top: 11px;
+    left: 88px;
+}
+.time{
+    margin-left: 6px;
+    position: absolute;
+    top: 10px;
+    left: 123px;
+}
+.second-chose{
+    flex: 3;
+    /* height: 34px; */
+    padding-right: 22px;
+}
+.second-chose a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: end;
+    line-height: 34px;
+    font-size: 10px;
+    color:#f23030;
+}
+.second-chose a span{
+    display: block;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 11px;
+    right: -16px;
+    background-image: url(../image/arrow_rt.png);
+    background-size: 11px auto;  
+}
+.footer-containter-rollin{
+
+}
+.footer-containter-rolling ul{
+    padding-left: 5.2px;
+    height: 131px;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.footer-containter-rolling ul li{   
+    display: inline-block;
+    width: 88.6px;
+    height: 131px;
+    position: relative;
+}
+.before-price,.after-price{
+    position: absolute;
+}
+.before-price{
+    font-size: 13px;
+    bottom:34px;
+    left: 50%;
+    margin-left: -16px;
+    color: #f02b2b;
+}
+.after-price{
+    bottom: 21px;
+    left: 50%;
+    margin-left: -14px;
+}
+.rolling-img{
+    width: 78px;
+    height: 78px;
+    padding: 0 5.2px;
+}
+.rolling-img a{
+    display: block;
+    width: 78px;
+    height: 78px;
+}
+.rolling-img a img{
+    width: 78px;
+    height: 78px;
+}
+/* footer-container结束 */
+/* floor开始 */
+.floor{
+    height:5000px;
+    background-color: #f6f6f6;
+}
+.djxy-title{
+    margin-top: 5.2px;
+    /* background-color: #f6f6f6; */
+}
+.djxy-content{
+    margin: 0 106px;
+    text-align: center;
+}
+.djxy-content img{
+    margin: 0 auto;
+    height: 37px;
+    
+}
+.floor-firstrow{
+    display: flex;
+    height: 133px;
+}
+.floor-firstrow div:first-child{
+    margin-right: 1px;
+}
+.floor-firstrow-item{
+   background-color: #fff;
+    flex: 1;
+}
+.firstrow-text{
+    padding: 10px 10.5px 0 9.5px;
+    height: 40px;
+}
+.firstrow-text a{
+    display: block;
+    height: 40x;
+    text-align: center;
+}
+.firstrow-text a h2{
+
+   color: #666;
+}
+.firstrow-text a p{
+    color: #648EFF;
+    font-weight: 600;
+}
+.firstrow-img{
+    height: 70px;
+    display: flex;
+    padding: 0 14px;
+}
+.firstrow-img a{
+    display: block;
+    flex: 1;
+    margin: 5.7px 7.2px 0 7.2px;
+    position: relative;
+}
+.firstrow-img img{
+    height: 68px;
+    widows: 68px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.floor-secondrow{
+    margin-top: 1px;
+    display: flex; 
+
+
+}
+.floor-secondrow-item{
+    flex: 1;
+    padding: 6.8px 0 5.2px 10.4px;
+    height:110px;
+    margin-right: 1px;
+    background-color: #fff; 
+}
+.floor-secondrow-item:last-child{
+    margin-right: none;
+}
+
+.secondrow-text {
+
+}
+.secondrow-text h2{
+   color: #666;
+}
+.secondrow-text  p{
+    color: #648EFF;
+    font-weight: 600;
+}
+.secondrow-img{
+    margin: 5.7px 4.1px 0 4.1px;
+}
+.secondrow-img img{
+    height: 67px;
+    widows: 67px;
+}
+
+
+/* 每日逛 */
+.everyday-content{
+    margin-top: 5px;
+}
+.mrg-content img{
+    margin: 0 auto;
+    height: 36.4px;
+}
+.everyimg-content{
+    flex-direction: column;
+    display: flex;
+}
+.arow{
+    display: flex;
+    flex:1;
+}
+.arow:first-child{
+    margin-bottom: 1px;
+}
+.arow-item{
+    padding: 6.8px 0 5.2px 10.4px;
+    background-color: #fff;
+    /* height: 92px; */
+    flex: 1;
+    margin-left: 1px;
+}
+.arow-item:last-child{
+    margin-left: none;
+}
+.arow-item-text{
+    height: 39.5px;
+}
+.arow-item-text strong{
+
+    font-weight: bold;
+    font-size: 1rem;
+    background: -webkit-linear-gradient(left, rgb(255, 42, 42), rgb(241, 57, 210));  
+    -webkit-background-clip: text;        
+    -webkit-text-fill-color: transparent;  
+
+}
+.arow-item-text p{
+    font-size: 11px;
+}
+.arow-item-img{
+    margin: 5.7px 4.1px 0 4.1px;
+    /* width: 68px;
+    height: 68px; */
+}
+.arow-item-img img{
+    width: 68px;
+    height: 68px;
+}
+/* 爱生活 */
+
+.ash-content{
+    margin-top: 5px;
+}
+.ash-title-content img{
+    margin: 0 auto;
+    height: 36.4px;
+}
+.ash-img{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+}
+.ash-img-row{
+    flex: 1;
+    margin-bottom: 1px;
+    height: 124.8px;
+    display: flex;
+    
+}
+.ash-img-item{
+    background-color: #fff;
+    flex: 1;
+}
+.ash-img-item-content{
+    padding: 6.7px 0 5.2px;
+    height: 112.8px;
+    background: #fff;
+}
+.ml{
+    margin-left: 1px;
+}
+.ash-img-item-text{
+    padding-left: 9.3px;
+}
+.ash-img-item-content h2{
+
+}
+.ash-img-item-content p{
+    
+}
+.ash-img-item-img{
+    display: flex;
+    padding:  0 14.5px;
+}
+.ash-img-item-img img{
+    flex: 1;
+    margin: 5.7px 7.3px 0 7.3px;
+    height: 67.6px;
+    
+
+}
+.ash-img-item-con{
+    padding: 6.7px 0 5.2px 10.4px;
+    height: 112.8px;
+
+}
+/* floor */
